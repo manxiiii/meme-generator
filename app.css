@@ -1,0 +1,46 @@
+.txtinput {
+  width: 100%;
+}
+
+#results {
+  width: 100%;
+  display: -moz-flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.meme {
+  position:'relative';
+  margin: 5%;
+  width: 25%;
+  text-align: center;
+}
+
+.deletebutton {
+
+}
+
+.memeimage {
+  width: 100%;
+}
+
+.texttop {
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: aliceblue;
+  display:inline-block;
+  font-size: 16pt;
+}
+
+.textbottom {
+  position: 'absolute';
+  bottom: '0';
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: aliceblue;
+  display:inline-block;
+  font-size: 16pt;
+}
+
